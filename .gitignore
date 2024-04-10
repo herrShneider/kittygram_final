@@ -150,3 +150,6 @@ media/
 
 # Others
 node_modules
+
+# файл настроек окружения
+.bash_profile
