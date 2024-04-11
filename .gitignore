@@ -153,6 +153,3 @@ node_modules
 
 # файл настроек окружения
 .bash_profile
-
-# файл workflow для запуска локально
-docker-compose.yml
