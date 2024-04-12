@@ -1,7 +1,7 @@
 # kittygram_final
 ![kittygram_final workflow](https://github.com/herrShneider/kittygram_final/actions/workflows/main.yml/badge.svg)
 
-Учебный проект социальной сети про котиков. Целью проекта является закрепление знаний в области запуска проекта Kittygram в контейнерах, настройки автоматического тестирования и деплоя этого проекта на удалённый сервер.
+  Учебный проект социальной сети про котиков. Целью проекта является закрепление знаний в области запуска проекта Kittygram в контейнерах, настройки автоматического тестирования и деплоя этого проекта на удалённый сервер.
 Автоматизация настроена с помощью сервиса GitHub Actions.
 При пуше в ветку main:
 проект тестируется и деплоится на удалённый сервер,
@@ -32,7 +32,7 @@ cd kittygram/
 sudo docker compose -f docker-compose.production.yml pull
 ```
 
-Запустить/Перезапускает все контейнеры в Docker Compose:
+Запустить/Перезапустить все контейнеры в Docker Compose:
 ```
 sudo docker compose -f docker-compose.production.yml down
 ```
